@@ -1,0 +1,16 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.validate": ["javascript"],
+    "files.exclude": {
+      "node_modules": true,
+      ".npm-offline-cache": true
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0,
+}

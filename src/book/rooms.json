@@ -1,0 +1,72 @@
+{
+    "hotels": {
+        "Sandberg": {
+            "rooms": [
+                
+                    {
+                        "roomNumber": 101,
+                        "dailyPrice": 90,
+                        "type": "meeting",
+                        "maxCapacity": "10"
+                    },
+                    {
+                        "roomNumber": 102,
+                        "dailyPrice": 90,
+                        "type": "vacay",
+                        "maxCapacity": "10"
+                    },
+                    {
+                        "roomNumber": 103,
+                        "dailyPrice": 0,
+                        "type": "vacay",
+                        "maxCapacity": "10"
+                    }
+                
+            ]
+        },
+        "Hilton": {
+            "rooms": [
+                    {
+                        "roomNumber": 501,
+                        "dailyPrice": 90,
+                        "type": "meeting",
+                        "maxCapacity": "10"
+                    },
+                    {
+                        "roomNumber": 502,
+                        "dailyPrice": 90,
+                        "type": "vacay",
+                        "maxCapacity": "10"
+                    },
+                    {
+                        "roomNumber": 503,
+                        "dailyPrice": 0,
+                        "type": "vacay",
+                        "maxCapacity": "10"
+                    }
+            ]
+        },
+        "Munkebo": {
+            "rooms": [
+                {
+                    "roomNumber": 213,
+                    "dailyPrice": 90,
+                    "type": "meeting",
+                    "maxCapacity": "10"
+                },
+                {
+                    "roomNumber": 214,
+                    "dailyPrice": 90,
+                    "type": "vacay",
+                    "maxCapacity": "10"
+                },
+                {
+                    "roomNumber": 215,
+                    "dailyPrice": 0,
+                    "type": "vacay",
+                    "maxCapacity": "10"
+                }
+            ]
+        }
+    }
+}

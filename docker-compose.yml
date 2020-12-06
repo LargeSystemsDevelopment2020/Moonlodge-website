@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  nestjs:
+    build: .
+    image: frontend
+    ports:
+     - "3000:3000"

@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Book from './book/Book'
-import Home from './home/Home'
+import Reservations from './routes/reservations/Reservations'
+import Book from './routes/book/Book'
 import Navigation from './navigation/Navigation'
 
 export default function Container() {
@@ -10,7 +10,7 @@ export default function Container() {
       <Navigation />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Reservations />
         </Route>
         <Route path="/book">
           <Book />

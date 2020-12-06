@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const Navbar = styled.div`
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 `
 
 const LinkContainer = styled.div`
@@ -17,10 +17,10 @@ export default function Navigation() {
   return (
     <Navbar>
       <LinkContainer>
-        <Link to="/">Home</Link>
+        <Link to="/">Reservationer</Link>
       </LinkContainer>
       <LinkContainer>
-        <Link to="/book">Book</Link>
+        <Link to="/book">Book en reservation</Link>
       </LinkContainer>
     </Navbar>
   )
